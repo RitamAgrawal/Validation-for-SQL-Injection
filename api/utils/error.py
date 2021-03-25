@@ -1,10 +1,12 @@
 """This script has all the error methods.
 """
+
+
 def error_bad_request():
     """A helper function to error_message method. Displays error message due to 
     incorrect json format/ bad requests.
     like, {"payload":"uht99",}
-    
+
     Returns
     -------
     string
@@ -17,7 +19,7 @@ def error_missing_payload():
     """A helper function to error_message method.Displays error message due to 
     absence of key="payload" in the request.
     like, {"pay":"uht99"}
-    
+
     Returns
     -------
     string
@@ -30,7 +32,7 @@ def error_invalid_input():
     """A helper function to error_message method.Displays error message due to 
     invalid input.
     like, value of payload is not a string {"payload":99}
-    
+
     Returns
     -------
     string

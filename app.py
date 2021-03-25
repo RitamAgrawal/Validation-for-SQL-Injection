@@ -24,7 +24,7 @@ def validate_input():
     Returns
     -------
     boolean
-        
+
         {"result": "sanitized"}
         {"result": "unsanitized"}
     """
