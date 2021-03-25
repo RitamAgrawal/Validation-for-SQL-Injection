@@ -14,6 +14,7 @@ SQL_INJECTION_CHARACTERS = set(
 # \% A % character.
 # \_ A _ character.
 
+
 def is_valid_input(data):
     """This method validates the input.
 
@@ -29,10 +30,10 @@ def is_valid_input(data):
         False: All other cases, like, when input is not a string type or 
             data is an empty string
     """
-    is_string = isinstance(data, str) 
-    #isinstance returns boolean
-    #True: if first parameter(data) is a type of second parameter(str) 
-    #else returns False
+    is_string = isinstance(data, str)
+    # isinstance returns boolean
+    # True: if first parameter(data) is a type of second parameter(str)
+    # else returns False
     if is_string and len(data) > 0:
         return True
     else:
@@ -41,7 +42,7 @@ def is_valid_input(data):
 
 def compare_input(data):
     """This method compares the input.
-    
+
     Parameters
     -------
     data
@@ -60,7 +61,7 @@ def compare_input(data):
 
 def key_exists(key, dictionary={}):
     """This method checks if the key exists in dictionary.
-    
+
     Parameters
     -------
     key: str
