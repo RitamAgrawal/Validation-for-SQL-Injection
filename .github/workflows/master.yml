@@ -4,10 +4,6 @@ on:
   push:
     branches:
       - master
-    paths:
-      - Pipfile*
-      - zappa_settings.json
-
 jobs:
   build:
     runs-on: ubuntu-latest
