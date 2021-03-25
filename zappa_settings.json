@@ -1,0 +1,14 @@
+{
+  "production": {
+    "apigateway_description": "API: Validation for SQL Injection",
+    "app_function": "app.app",
+    "aws_region": "us-west-2",
+    "lambda_description": "Lambda: Validation for SQL Injection",
+    "memory_size": 128,
+    "profile_name": null,
+    "project_name": "Validation_for_SQL_Injection",
+    "runtime": "python3.8",
+    "s3_bucket": "zappa-ncxda13bf",
+    "timeout_seconds": 3
+  }
+}
